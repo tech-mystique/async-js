@@ -38,3 +38,5 @@ fetch(`${domain}/pokemon/ditto`)
     })
     .catch(err => console.log('error', err));
 
+
+    fetch('https://fchatiavi.herokuapp.com/get/n').then(res => res.json()).then(res => console.log('chat res', res))
